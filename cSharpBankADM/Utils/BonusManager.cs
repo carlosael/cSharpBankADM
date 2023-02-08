@@ -15,10 +15,5 @@ namespace cSharpBankADM.Utils
         {
             this.TotalBonus += employee.GetBonus();
         }
-
-        public void RegisterBonus(Director director)
-        {
-            this.TotalBonus += director.GetBonus();
-        }
     }
 }
