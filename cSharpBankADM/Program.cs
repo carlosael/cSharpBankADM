@@ -22,3 +22,7 @@ bonusManager.RegisterBonus(peter);
 bonusManager.RegisterBonus(robert);
 
 Console.WriteLine(bonusManager.TotalBonus);
+Console.WriteLine(Employee.TotalEmployees);
+
+
+
