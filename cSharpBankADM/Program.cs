@@ -20,3 +20,5 @@ Console.WriteLine(robert.GetBonus());
 BonusManager bonusManager = new BonusManager();
 bonusManager.RegisterBonus(peter);
 bonusManager.RegisterBonus(robert);
+
+Console.WriteLine(bonusManager.TotalBonus);

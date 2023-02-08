@@ -13,7 +13,7 @@ namespace cSharpBankADM.Employees
         public string Cpf { get; set; }
         public double Salary { get; set; }
 
-        public double GetBonus()
+        public virtual double GetBonus()
         { 
             return this.Salary * 0.10; 
         }
