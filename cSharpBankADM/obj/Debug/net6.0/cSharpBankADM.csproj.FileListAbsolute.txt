@@ -1,0 +1,15 @@
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.AssemblyInfo.cs
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\bin\Debug\net6.0\cSharpBankADM.exe
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\bin\Debug\net6.0\cSharpBankADM.deps.json
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\bin\Debug\net6.0\cSharpBankADM.runtimeconfig.json
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\bin\Debug\net6.0\cSharpBankADM.dll
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\bin\Debug\net6.0\cSharpBankADM.pdb
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.dll
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\refint\cSharpBankADM.dll
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.pdb
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\cSharpBankADM.genruntimeconfig.cache
+C:\Users\carlo\Desktop\C#\cSharpBankADM\cSharpBankADM\cSharpBankADM\obj\Debug\net6.0\ref\cSharpBankADM.dll
