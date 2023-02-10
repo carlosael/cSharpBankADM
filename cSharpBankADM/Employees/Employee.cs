@@ -10,7 +10,7 @@ namespace cSharpBankADM.Employees
     public class Employee
     {
         public string Name { get; set; }
-        public string Cpf { get; set; }
+        public string Cpf { get; private set; }
         public double Salary { get; set; }
 
         public static int TotalEmployees { get; private set; }
@@ -20,9 +20,15 @@ namespace cSharpBankADM.Employees
             return this.Salary * 0.10; 
         }
 
-        public Employee()
+        public Employee(string cpf)
         {
+            this.Cpf = cpf;
             TotalEmployees++;
+        }
+
+        public void RaiseSalary()
+        {
+            this.Salary = this.Salary + (this.Salary * 0.10);
         }
     }
 }

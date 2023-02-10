@@ -12,5 +12,10 @@ namespace cSharpBankADM.Employees
         {
             return this.Salary + base.GetBonus();
         }
+
+        public Director(string cpf):base(cpf)
+        {
+
+        }
     }
 }
