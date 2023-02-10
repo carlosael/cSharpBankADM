@@ -1,4 +1,5 @@
 ﻿using cSharpBankADM.Employees;
+using cSharpBankADM.InternalSystem;
 using cSharpBankADM.Utils;
 
 #region
@@ -47,6 +48,18 @@ void CalculateBonus()
     bonusManager.RegisterBonus(igor);
 
     Console.WriteLine("Total bonus : " + bonusManager.TotalBonus);
+}
+
+UseSytem();
+void UseSytem()
+{
+    InternalSytem system = new InternalSytem();
+
+    Director paul = new Director("98989088912");
+    paul.Name = "Paul";
+    paul.Password= "123";
+
+    system.Login(paul, "123");
 }
 
 

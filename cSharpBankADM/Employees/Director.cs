@@ -10,7 +10,7 @@ namespace cSharpBankADM.Employees
     {
         public override double GetBonus()
         {
-            return this.Salary + base.GetBonus();
+            return this.Salary * 0.30 ;
         }
 
         public Director(string cpf):base(cpf, 5000)
@@ -21,6 +21,13 @@ namespace cSharpBankADM.Employees
         public override void RaiseSalary()
         {
             this.Salary *= 1.15;
+        }
+
+        public string Password { get; set; }
+
+        public bool Authenticate (string password)
+        {
+            return this.Password == password;
         }
     }
 }
