@@ -1,5 +1,6 @@
 ﻿using cSharpBankADM.Employees;
 using cSharpBankADM.InternalSystem;
+using cSharpBankADM.Partners;
 using cSharpBankADM.Utils;
 
 #region
@@ -61,13 +62,13 @@ void UseSytem()
 
     Analist henry = new Analist("9990999092");
     henry.Name = "Henry";
-    
 
+    CommercialPartner arthur = new CommercialPartner();
+    arthur.Password = "1223";
 
 
     system.Login(paul, "123");
-    
-
+    system.Login(arthur, "1223");
 }
 
 

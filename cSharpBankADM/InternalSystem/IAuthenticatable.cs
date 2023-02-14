@@ -7,14 +7,10 @@ using System.Threading.Tasks;
 
 namespace cSharpBankADM.InternalSystem
 {
-    public abstract class Authenticatable : Employee
+    public interface IAuthenticatable
     {
         public string Password { get; set; }
 
-        public abstract bool Authenticate(string password);
-
-        public Authenticatable(string cpf, double salary) : base(cpf, salary)
-        {
-        }
+        public bool Authenticate(string password);
     }
 }

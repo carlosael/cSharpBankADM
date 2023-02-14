@@ -2,28 +2,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace cSharpBankADM.Employees
 {
-    public class Director: AuthenticatableEmployee
+    public abstract class AuthenticatableEmployee : Employee, IAuthenticatable
     {
-        public override double GetBonus()
+        protected AuthenticatableEmployee(string cpf, double salary) : base(cpf, salary)
         {
-            return this.Salary * 0.30 ;
         }
 
-        public Director(string cpf):base(cpf, 5000)
-        {
-
-        }
-
-        public override void RaiseSalary()
-        {
-            this.Salary *= 1.15;
-        }
+        public string Password { get ; set ; }
 
         public bool Authenticate(string password)
         {
