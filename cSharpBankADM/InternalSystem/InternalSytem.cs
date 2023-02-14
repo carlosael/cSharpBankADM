@@ -9,7 +9,7 @@ namespace cSharpBankADM.InternalSystem
 {
     public class InternalSytem
     {
-        public bool Login(Director director, string password)
+        public bool Login(Authenticatable director, string password)
         {
             bool authenticatedUser = director.Authenticate(password);
             if (authenticatedUser)

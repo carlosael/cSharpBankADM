@@ -18,7 +18,7 @@ namespace cSharpBankADM.Employees
         public abstract double GetBonus();
 
         public abstract void RaiseSalary();
-        
+
         public Employee(string cpf, double salary)
         {
             this.Cpf = cpf;

@@ -59,7 +59,15 @@ void UseSytem()
     paul.Name = "Paul";
     paul.Password= "123";
 
+    Analist henry = new Analist("9990999092");
+    henry.Name = "Henry";
+    
+
+
+
     system.Login(paul, "123");
+    
+
 }
 
 
